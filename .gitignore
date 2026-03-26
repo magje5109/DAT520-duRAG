@@ -1,0 +1,37 @@
+# Python
+# General Python files to ignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Created by uv - Virtual environment directory
+# It is best practice to ignore your virtual environment
+.venv/
+# Or if you use a different name:
+# venv/
+
+# Created by uv - Lock file
+# It is generally recommended to include uv.lock in version control for reproducibility
+# If you choose NOT to commit it, uncomment the following line:
+# uv.lock
+
+# User-specific environment variables file
+# It is generally recommended to ignore .env files to prevent credential leaks
+.env
+.flaskenv
+
+# Distribution / build files
+dist/
+build/
+*.egg-info/
+
+# specific to pycharm, visual studio code, etc.
+.idea/
+.vscode/
+
+# various OS files
+.DS_Store
+Thumbs.db
+
+data/train/
+data/test/
