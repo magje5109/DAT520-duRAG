@@ -33,5 +33,4 @@ build/
 .DS_Store
 Thumbs.db
 
-data/train/
-data/test/
+data/raw/
